@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 16px;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background-color: #CBCED3;  
+    overflow-x: hidden;
+}
+
+header{
+    width: 100vw;
+    height: 180px;
+    background-color: #F1AE45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#imagenLogo{    
+    width: 150px;
+    height: 149px;
+}
+nav{
+    width: 100vw;
+    height: 60px;
+    background-color: #EA880B;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: sticky;
+    top: 0px;
+}
+
+nav ul{
+    list-style: none;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+nav ul li{
+    float: left;
+    width: 80px;
+    height: 60px;
+    margin-left: 5px;
+    text-align: center;
+
+}
+
+nav ul li a{
+    line-height: 60px;
+    text-decoration: none;
+    display: block;
+    color: #F1FDF4;
+
+}
+
+nav ul li a:hover{
+    background-color: black;
+}
+
+#concerts{
+    width: 120px;
+}
+
+#contact{
+    width: 105px;
+}
+
+#imagenPrincipal{
+    width: 100vw; 
+}
+
+#tituloHome{
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+#lineaHome{
+    width: 200px;
+    height: 8px;
+    border: none;
+    margin-left: 20px;
+    background: #EA880B;
+}
+
+#imagenMilonguera{
+    width: 300px;
+    height: 261px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+#parrafoHome{
+    margin: 25px 0px 150px 20px;
+    font-size: 1.25rem;
+    font-weight: bold;    
+    
+}
+
+.fontHome{
+    color: #262626;
+}
+
+footer{
+    background-color: black;
+    height: 60px;
+}
+
+#imagenFooter{
+    width: 68px;
+    height: 50px;
+    margin-top: 5px;
+    float: left;
+}
+
+footer p{
+    color:#CBCED3;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#contenedorFooter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
